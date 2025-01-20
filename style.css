@@ -1,7 +1,7 @@
 :root {
     --background-color: #160330;
     ; /* Default background color */
-    --background-image: url('nest/image/Noise.png'); /* Path to your image */
+    --background-image: url('image/Noise.png'); /* Path to your image */
     --textmenu-color: #D0AFF7; 
     --border-color: #F65B00;
 
