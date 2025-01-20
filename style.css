@@ -18,8 +18,9 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
   }
-  .home{
-    padding: 78px;
+  .hero{
+    padding: 74px 102px 0 102px;
+    gap: 127px;
   }
   
   .navbar {
@@ -113,17 +114,80 @@
   
   /* CTA Button */
   .cta-button {
-    width: 311px;
+    width: 360px;
     height: 54px;
     border-radius: 30px;
     padding: 16px 24px;
     gap: 8px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 21.6px;
     color: #160330;
     background-color: #F65B00;
     border: none;
     cursor: pointer;
   }
+   /* section page container  1 */ 
+   .main-section{
+    display: flex;
+padding: 0px 100.943px;
+flex-direction: column;
+
+align-self: stretch;
+   }
+.features-section {
+  display: flex;
+  flex-direction: row;
+padding: 8px 12px;
+align-items: flex-start;
+gap: 48px;
+}
+
+
+.section-title {
+  color: #E6E3EC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 122.01%;
+}
+
+
+.feature-card {
+  padding: 15px; 
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-title, .feature-description {
+  color: #EFF1F3;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  line-height: 120.108%;
+}
+
+
+.feature-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px; 
+}
+
+
+.feature-description {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.section{
+  width: 1238.11px;
+  height: 417px; 
+  padding: 8px 65.17px; 
+  display: flex; 
+  flex-direction: row; 
+  gap: 20px;
+  box-sizing: border-box;
+}
