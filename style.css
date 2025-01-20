@@ -18,6 +18,9 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
   }
+  .home{
+    padding: 78px;
+  }
   
   .navbar {
     display: flex;
@@ -54,9 +57,73 @@
     height: 54px;
     border-radius: 30px;
     padding: 16px 24px; 
+    cursor: pointer;
     font-size: 16px;
     color: var(--textmenu-color); 
     border: 1px solid #F65B00;
     background-color: transparent;
 }
 
+/* Hero Section */
+.hero-section {
+    width: 1236px;
+    height: 359px;
+    padding: 102px 250px;
+    gap: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Hero Content */
+  .hero-content {
+    width: 830px;
+    height: 359px;
+    padding: 8px 12px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Hero Title */
+  .hero-title {
+    width: 806px;
+    height: 120px;
+    padding: 8px 12px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58.51px;
+    letter-spacing: 1.44px;
+    color: #E6E3EC;
+  }
+  
+  /* Hero Subtitle */
+  .hero-subtitle {
+    width: 490px;
+    height: 26px;
+    padding: 8px 12px;
+    gap: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E6E3EC;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    width: 311px;
+    height: 54px;
+    border-radius: 30px;
+    padding: 16px 24px;
+    gap: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.6px;
+    color: #160330;
+    background-color: #F65B00;
+    border: none;
+    cursor: pointer;
+  }
